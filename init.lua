@@ -102,8 +102,9 @@ vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
 -- plugins
 
 vim.pack.add({
-  'https://github.com/nvim-lua/plenary.nvim',
-  "https://github.com/nvim-telescope/telescope.nvim"
+  "https://github.com/nvim-lua/plenary.nvim",
+  "https://github.com/nvim-telescope/telescope.nvim",
+  "https://github.com/mfussenegger/nvim-jdtls"
 })
 
 
